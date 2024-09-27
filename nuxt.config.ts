@@ -4,4 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: ["@nuxtjs/tailwindcss"],
+
+  app: {
+    head: {
+      title: "MrHoffnung",
+      meta: [{ charset: "utf-8" }],
+    },
+  },
 });

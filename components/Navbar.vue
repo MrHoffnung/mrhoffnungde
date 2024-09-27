@@ -31,6 +31,11 @@
           <li class="md:mr-12">
             <NuxtLink to="#contact">Contact</NuxtLink>
           </li>
+          <li class="md:mr-12">
+            <NuxtLink to="https://mrhoffnung.github.io/auxilium-leonis" target="_blank" class="text-lg font-semibold text-purple-600 hover:text-purple-800 transition">
+              Cheatsheets
+            </NuxtLink>
+          </li>
         </ul>
       </nav>
     </div>
@@ -38,26 +43,17 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, ref } from 'vue'
-import { useRouter } from 'vue-router'
+import { onMounted, ref } from 'vue';
+import { useRouter } from 'vue-router';
 
-const isRoot = ref(false)
-const showMoreModal = ref(false)
-const router = useRouter()
-const toggleMoreModal = () => {
-  showMoreModal.value = !showMoreModal.value
-}
+const isRoot = ref(false);
+const showMoreModal = ref(false);
+const router = useRouter();
 
 onMounted(() => {
-  isRoot.value = router.currentRoute.value.path === '/'
-})
+  isRoot.value = router.currentRoute.value.path === '/';
+});
 
-const scrollTo = (id: string) => {
-  const element = document.getElementById(id)
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth' })
-  }
-}
 </script>
 
 <style></style>
