@@ -14,7 +14,7 @@
             class="w-full h-48 object-cover flex justify-center align-middle items-center bg-gradient-to-tr"
             :class="project.gradient"
           >
-            <img
+            <NuxtImg
               :src="project.img"
               :key="project.title"
               :alt="project.title"

@@ -13,7 +13,7 @@
           :auto-fill="true"
           class="mx-auto max-w-lg lg:max-w-full lg:items-center"
         >
-          <img
+          <NuxtImg
             v-for="skill in skills"
             :key="skill.name"
             :src="skill.icon"

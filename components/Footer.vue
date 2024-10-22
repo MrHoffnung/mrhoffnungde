@@ -10,12 +10,12 @@
       <div class="flex flex-col justify-between mt-4 md:mt-0">
         <div class="flex flex-row gap-3 justify-end">
           <a href="https://github.com/mrhoffnung" target="_blank"
-            ><img
+            ><NuxtImg
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
               width="30"
           /></a>
           <a href="https://www.linkedin.com/in/mrhoffnung" target="_blank">
-            <img
+            <NuxtImg
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
               width="30"
             />
