@@ -3,19 +3,19 @@
     <Hero />
     <About />
     <Skills />
-    <Daytistics />
+    <Projects />
     <Contact />
   </div>
 </template>
 
 <script lang="ts" setup>
 definePageMeta({
-  title: 'Home',
-  description: 'This is the home page',
-  image: '/images/home.jpg',
-  url: 'https://example.com',
-  type: 'website',
-  keywords: 'home, page, website',
+  title: "Home",
+  description: "This is the home page",
+  image: "/images/home.jpg",
+  url: "https://example.com",
+  type: "website",
+  keywords: "home, page, website",
 });
 </script>
 
